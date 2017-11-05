@@ -1,0 +1,215 @@
+body {
+  background-color: gray !important;
+}
+body #wrap {
+  padding: 16px;
+  background-color: white;
+  margin: 0 auto;
+  min-width: 360px;
+  max-width: 720px;
+}
+body #wrap #header {
+  margin: 0 auto;
+  margin-bottom: -140px;
+}
+body #wrap #header .info .nika {
+  height: 121px;
+  width: 120px;
+  background-image: url(img/face.png);
+  position: relative;
+  z-index: 10;
+}
+body #wrap #header .info .information {
+  position: relative;
+  top: -135px;
+}
+body #wrap #header .info .information .name {
+  margin-left: 135px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+body #wrap #header .info .information .name b {
+  font-size: 20px;
+}
+body #wrap #header .info .information .name .manager {
+  color: #808080;
+  font-size: 15px;
+}
+body #wrap #header .info .information .offers {
+  min-height: 56px;
+  background-color: #fffbc8;
+  border: 1px solid #cecabf;
+  border-radius: 10px;
+  padding: 6px;
+  padding-left: 48px;
+  margin-left: 80px;
+}
+body #wrap #rate {
+  overflow: auto;
+}
+body #wrap #rate .horizontal {
+  height: 220px;
+  font-size: 13px;
+  float: right;
+  width: 319px;
+}
+body #wrap #rate .horizontal .services {
+  text-align: right;
+  margin-top: 14px;
+  margin-right: 30px;
+  margin-bottom: 11px;
+}
+body #wrap #rate .horizontal .order {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  height: 121px;
+}
+body #wrap #rate .horizontal .order .block-left {
+  margin-top: 15px;
+  width: 257px;
+  float: left;
+}
+body #wrap #rate .horizontal .order .block-left .line {
+  height: 24px;
+  margin-top: 5px;
+}
+body #wrap #rate .horizontal .order .block-left .line text {
+  position: relative;
+  z-index: 1;
+  top: -21px;
+  padding-left: 6px;
+}
+body #wrap #rate .horizontal .order .block-left .line .colored {
+  border-radius: 0 3px 3px 0;
+  height: 24px;
+}
+body #wrap #rate .horizontal .order .block-left .line .reservation {
+  width: 218px;
+  background-color: #b1e19b;
+  border-left: 1px solid #83b26d;
+}
+body #wrap #rate .horizontal .order .block-left .line .tours {
+  width: 54px;
+  background-color: #ace2f8;
+  border-left: 1px solid #7eb4ca;
+}
+body #wrap #rate .horizontal .order .block-left .line .hotels {
+  width: 35px;
+  background-color: #ace2f8;
+  border-left: 1px solid #7eb4ca;
+}
+body #wrap #rate .horizontal .order .block-right {
+  margin-top: 12px;
+  margin-right: 39px;
+  float: right;
+}
+body #wrap #rate .horizontal .order .block-right .a1 {
+  font-weight: bold;
+  margin-top: 12px;
+}
+body #wrap #rate .horizontal .only_15 {
+  margin-top: 15px;
+}
+body #wrap #rate .horizontal .only_15 .total {
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+body #wrap #rate .horizontal .only_15 .a15 {
+  margin-right: 39px;
+  float: right;
+}
+body #wrap #pre-reviews {
+  overflow: auto;
+}
+body #wrap #pre-reviews .reviews-block {
+  float: left;
+}
+body #wrap #pre-reviews .reviews-block .recent {
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+body #wrap #pre-reviews .reviews-block a {
+  font-size: 16px;
+  margin-left: 12px;
+  float: left;
+  text-decoration: underline;
+}
+body #wrap #pre-reviews .husky {
+  float: right;
+}
+body #wrap #pre-reviews .husky .heart {
+  float: left;
+}
+body #wrap #pre-reviews .husky .heart img {
+  margin-top: 2px;
+  float: left;
+}
+body #wrap #pre-reviews .husky .heart .a131 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 5px;
+  float: left;
+}
+body #wrap #pre-reviews .husky .message {
+  margin-left: 20px;
+  float: left;
+}
+body #wrap #pre-reviews .husky .message img {
+  margin-top: 3px;
+  float: left;
+}
+body #wrap #pre-reviews .husky .message .a14 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 5px;
+  float: left;
+}
+body #wrap #reviews .block-reviews1 {
+  overflow: auto;
+  margin-top: 20px;
+}
+body #wrap #reviews .block-reviews1 .name1 {
+  font-weight: bold;
+  float: left;
+}
+body #wrap #reviews .block-reviews1 .date {
+  color: #808080;
+  margin-left: 8px;
+  float: left;
+}
+body #wrap #reviews .hi {
+  background-color: #f2fbff;
+  border: 1px solid #cfcfcf;
+  padding: 11px;
+  margin-top: 10px;
+}
+body #footer {
+  padding-bottom: 34px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  padding: 22px;
+  padding-top: 30px;
+  text-align: center;
+  min-width: 360px;
+  max-width: 720px;
+}
+body #footer #new-message {
+  min-height: 63px;
+  border: 1px solid #a9a9a9;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 23px;
+  text-align: left;
+  padding: 11px;
+}
+body #footer .write {
+  height: 42px;
+  width: 281px;
+  background-color: #fdd639;
+  border-radius: 25px;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
